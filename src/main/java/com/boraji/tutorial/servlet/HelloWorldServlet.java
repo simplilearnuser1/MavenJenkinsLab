@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author imssbora , this code is modified by srikanth
+ * @author imssbora , this code is modified by srikanth for child branch
  */
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
@@ -19,6 +19,6 @@ public class HelloWorldServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
       resp.setContentType("text/plain");
-      resp.getWriter().write("Hello World! Maven Web Project Example.");
+      resp.getWriter().write("Hello World! Maven Web Project Example. new version");
    }
 }
